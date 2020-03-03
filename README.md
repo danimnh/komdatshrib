@@ -97,9 +97,15 @@ Plugin untuk fungsi tambahan
 
 - Pendapat anda tentang aplikasi web ini
     - kelebihan
+    1. Fleksibel
+    2. Mudah digunakan
+    3. Ringan dijalankan
+    4. Dapat menyimpan secara otomatis
     - kekurangan
+    1. Hanya bisa memasukkan string atau data,tidak bisa menampilkan gambar
+    2. Fitur Minim 
 - Bandingkan dengan aplikasi web lain yang sejenis
-
+(SHRIB)
 
 ## Referensi
 
