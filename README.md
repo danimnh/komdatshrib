@@ -9,3 +9,23 @@ Hal ini dapat membantu mengimprovisasi tingkat fleksibilitas yang tersedia pada 
 # Panduan Instalasi
 [komdat 1 : Virtual Private Server](https://github.com/pereorga/minimalist-web-notepad)
 
+Instalasi LAMP (Linux Apache MySQL PHP)
+Buka terminal di komputer host, dan akses VM dengan username dan password student.
+
+# akses vm dari host ( ID : student, pw : student )
+ssh student@localhost -p 2200
+
+# set repo
+sudo tee /etc/apt/sources.list << !
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse
+!
+
+# instal apache, mysql, php
+sudo apt update
+sudo apt install apache2 php mysql-server
+sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
+sudo service apache2 restart
+Cek instalasi Apache dengan membuka laman http://localhost:80
+
