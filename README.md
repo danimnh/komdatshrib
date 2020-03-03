@@ -87,6 +87,8 @@ Plugin untuk fungsi tambahan
 - Ubah link URL dengan nama sesuka mu,salah satu contohnya : whatever
 - Tulisan akan otomatis di simpan oleh sistem aplikasi 
  Berikut dibawah ini adalah hasil screenshootnya :
+ ![SS 1](https://user-images.githubusercontent.com/47513269/75785797-e06def00-5d96-11ea-9366-ff0e62883d80.png)
+
  
  
 ## Pembahasan
