@@ -88,6 +88,8 @@ Plugin untuk fungsi tambahan
 - Tulisan akan otomatis di simpan oleh sistem aplikasi 
  Berikut dibawah ini adalah hasil screenshootnya :
  ![SS 1](https://user-images.githubusercontent.com/47513269/75785797-e06def00-5d96-11ea-9366-ff0e62883d80.png)
+ ![ss 2](https://user-images.githubusercontent.com/47513269/75786092-58d4b000-5d97-11ea-99b8-8bb29466701a.png)
+![ss 3](https://user-images.githubusercontent.com/47513269/75786131-67bb6280-5d97-11ea-8fb2-6c6a29453e19.png)
 
  
  
