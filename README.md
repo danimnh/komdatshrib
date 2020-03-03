@@ -84,9 +84,10 @@ Plugin untuk fungsi tambahan
 
 - Buka aplikasi "Minimalist-web-notepad"
 - Tulis apa yang ingin anda tulis di notepad 
-- Ubah link URL dengan nama sesuka mu,salah satu contohnya : PraktikumKomdat
+- Ubah link URL dengan nama sesuka mu,salah satu contohnya : whatever
 - Tulisan akan otomatis di simpan oleh sistem aplikasi 
  Berikut dibawah ini adalah hasil screenshootnya :
+ 
  
 ## Pembahasan
 
@@ -99,5 +100,5 @@ Plugin untuk fungsi tambahan
 ## Referensi
 
 https://notes.orga.cat or https://notes.orga.cat/whatever.
-How To Set Up mod_rewrite for Apache.
+https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_rewrite-for-apache-on-ubuntu-14-04
 http://www.apache.org/licenses/LICENSE-2.0
