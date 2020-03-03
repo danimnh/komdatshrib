@@ -29,6 +29,40 @@ sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
 sudo service apache2 restart
 Cek instalasi Apache dengan membuka laman http://localhost:80
 
+cd /var/www/html
+
+sudo git clone http://github.com/pereorga/minimalist-web-notepad
+
+cd /var/www/html/minimalist-web-notepad
+
+sudo sudo bacot
+
+sudo a2enmod rewrite
+
+sudo service apache2 restart
+
+
+sudo nano /etc/apache2/sites-enabled/000-default.conf
+
+/etc/apache2/sites-available/default
+<Directory /var/www/html>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+</Directory>
+
+sudo service apache2 restart
+
+sudo nano /var/www/html/.htaccess
+
+/var/www/html/.htaccess
+RewriteEngine on
+
+sudo chmod 644 /var/www/html/.htaccess
+
+
+ganti #base_url ke localhost
 
 ## Konfigurasi (opsional)
 
