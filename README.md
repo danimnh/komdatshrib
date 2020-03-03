@@ -82,11 +82,12 @@ Plugin untuk fungsi tambahan
 
 ## Cara Pemakaian
 
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-
-
+- Buka aplikasi "Minimalist-web-notepad"
+- Tulis apa yang ingin anda tulis di notepad 
+- Ubah link URL dengan nama sesuka mu,salah satu contohnya : PraktikumKomdat
+- Tulisan akan otomatis di simpan oleh sistem aplikasi 
+ Berikut dibawah ini adalah hasil screenshootnya :
+ 
 ## Pembahasan
 
 - Pendapat anda tentang aplikasi web ini
@@ -97,4 +98,6 @@ Plugin untuk fungsi tambahan
 
 ## Referensi
 
-Cantumkan tiap sumber informasi yang anda pakai.
+https://notes.orga.cat or https://notes.orga.cat/whatever.
+How To Set Up mod_rewrite for Apache.
+http://www.apache.org/licenses/LICENSE-2.0
