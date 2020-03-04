@@ -14,7 +14,7 @@ Instalasi LAMP (Linux Apache MySQL PHP)
 Buka terminal di komputer host, dan akses VM dengan username dan password student.
 
 # akses vm dari host ( ID : student, pw : student )
-ssh student@localhost -p 2200
+    ssh student@localhost -p 2200
 
 # set repo
     sudo tee /etc/apt/sources.list << !
@@ -32,7 +32,7 @@ ssh student@localhost -p 2200
 
     sudo service apache2 restart
 
-* Cek instalasi Apache dengan membuka laman http://localhost:80
+- Cek instalasi Apache dengan membuka laman http://localhost:80
 
       cd /var/www/html
 
@@ -57,42 +57,44 @@ ssh student@localhost -p 2200
 
       sudo service apache2 restart
       
-ubah    /var/www/html/.htaccess
+      
+Ubah    /var/www/html/.htaccess
 
-    sudo nano /var/www/html/.htaccess
+        sudo nano /var/www/html/.htaccess
 
-    Options -Indexes
-    RewriteEngine On
-    RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?note=$1
+        Options -Indexes
+        RewriteEngine On
+        RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?note=$1
 
-    <IfModule mod_headers.c>
-    Header set X-Robots-Tag: "noindex, nofollow"
-    </IfModule>
+        <IfModule mod_headers.c>
+        Header set X-Robots-Tag: "noindex, nofollow"
+        </IfModule>
 
-    <Files "docker-compose.yml">  
-        Order Allow,Deny
-        Deny from all
-    </Files>
+        <Files "docker-compose.yml">  
+            Order Allow,Deny
+            Deny from all
+        </Files>
 
-    # Uncomment the lines below to enable basic authentication.
-    # See https://httpd.apache.org/docs/current/programs/htpasswd.html for generating your .htpasswd
+        # Uncomment the lines below to enable basic authentication.
+        # See https://httpd.apache.org/docs/current/programs/htpasswd.html for generating your .htpasswd
 
-    # AuthType basic
-    # AuthName "website.name"
-    # AuthUserFile "/home/user/update-path-to.htpasswd"
-    # Require valid-user
-   ubah access file .htaccess 
+        # AuthType basic
+        # AuthName "website.name"
+        # AuthUserFile "/home/user/update-path-to.htpasswd"
+        # Require valid-user
+ 
+Ubah access file .htaccess 
     
-    sudo chmod 644 /var/www/html/.htaccess
+         sudo chmod 644 /var/www/html/.htaccess
 
+ganti base_url ke localhost
 
-#ganti base_url ke localhost
+        cd /var/www/html
+        sudo nano index.php
 
-    cd /var/www/html
-    sudo nano index.php
-  ganti $base_url menjadi
+ganti $base_url menjadi
     
-    $base_url = 'http://localhost';
+        $base_url = 'http://localhost';
 
 
 ## Cara Pemakaian
@@ -101,7 +103,7 @@ ubah    /var/www/html/.htaccess
 - Tulis apa yang ingin anda tulis di notepad 
 - Ubah link URL dengan nama sesuka mu,salah satu contohnya : whatever
 - Tulisan akan otomatis di simpan oleh sistem aplikasi 
- Berikut dibawah ini adalah hasil screenshootnya :
+  Berikut dibawah ini adalah hasil screenshootnya :
  ![SS 1](https://user-images.githubusercontent.com/47513269/75785797-e06def00-5d96-11ea-9366-ff0e62883d80.png)
  ![ss 2](https://user-images.githubusercontent.com/47513269/75786092-58d4b000-5d97-11ea-99b8-8bb29466701a.png)
 ![ss 3](https://user-images.githubusercontent.com/47513269/75786131-67bb6280-5d97-11ea-8fb2-6c6a29453e19.png)
