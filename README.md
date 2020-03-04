@@ -114,7 +114,7 @@ Cek instalasi Apache dengan membuka laman http://localhost:80
  
 ## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
+- Pendapat kami tentang aplikasi "Minimalist-web-Notepad"
     - kelebihan
     1. Fleksibel
     2. Mudah digunakan
