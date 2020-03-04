@@ -32,7 +32,7 @@ Buka terminal di komputer host, dan akses VM dengan username dan password studen
 
     sudo service apache2 restart
 
-- Cek instalasi Apache dengan membuka laman http://localhost:80
+Cek instalasi Apache dengan membuka laman http://localhost:80
 
       cd /var/www/html
 
