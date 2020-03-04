@@ -34,14 +34,14 @@ Buka terminal di komputer host, dan akses VM dengan username dan password studen
 
 Cek instalasi Apache dengan membuka laman http://localhost:80
 
-git clone github source minimalist-web-notepad
+### git clone github source minimalist-web-notepad
 
       cd /var/www/html
 
       sudo git clone http://github.com/pereorga/minimalist-web-notepad
 
 
-set-up mod_rewrite pada apache
+### set-up mod_rewrite pada apache
 
       cd /var/www/html/minimalist-web-notepad
 
@@ -63,7 +63,7 @@ set-up mod_rewrite pada apache
       sudo service apache2 restart
       
       
-konfigurasi .htaccess di /var/www/html/.htaccess
+### konfigurasi .htaccess di /var/www/html/.htaccess
 
         sudo nano /var/www/html/.htaccess
 
@@ -88,11 +88,11 @@ konfigurasi .htaccess di /var/www/html/.htaccess
         # AuthUserFile "/home/user/update-path-to.htpasswd"
         # Require valid-user
  
-Ubah access file .htaccess 
+### Ubah access file .htaccess 
     
          sudo chmod 644 /var/www/html/.htaccess
 
-ganti base_url ke localhost
+### ganti base_url ke localhost
 
         cd /var/www/html
         sudo nano index.php
