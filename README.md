@@ -123,9 +123,7 @@ Cek instalasi Apache dengan membuka laman http://localhost:80
 ## kekurangan
     1. Hanya bisa memasukkan string atau data,tidak bisa menampilkan gambar
     2. Fitur Minim 
-- Bandingkan dengan aplikasi web lain yang sejenis
-(SHRIB)
-
+    
 ## Referensi
 
 https://notes.orga.cat or https://notes.orga.cat/whatever.
