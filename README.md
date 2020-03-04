@@ -56,20 +56,43 @@ ssh student@localhost -p 2200
       </Directory>
 
       sudo service apache2 restart
+      
+ubah    /var/www/html/.htaccess
 
-      sudo nano /var/www/html/.htaccess
+    sudo nano /var/www/html/.htaccess
 
-      /var/www/html/.htaccess
-      RewriteEngine on
+    Options -Indexes
+    RewriteEngine On
+    RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?note=$1
 
-      sudo chmod 644 /var/www/html/.htaccess
+    <IfModule mod_headers.c>
+    Header set X-Robots-Tag: "noindex, nofollow"
+    </IfModule>
+
+    <Files "docker-compose.yml">  
+        Order Allow,Deny
+        Deny from all
+    </Files>
+
+    # Uncomment the lines below to enable basic authentication.
+    # See https://httpd.apache.org/docs/current/programs/htpasswd.html for generating your .htpasswd
+
+    # AuthType basic
+    # AuthName "website.name"
+    # AuthUserFile "/home/user/update-path-to.htpasswd"
+    # Require valid-user
+   ubah access file .htaccess 
+    
+    sudo chmod 644 /var/www/html/.htaccess
 
 
 #ganti base_url ke localhost
-        cd /var/www/html
-        sudo nano index.php
-     ganti $base_url menjadi
-        $base_url = 'http://localhost';
+
+    cd /var/www/html
+    sudo nano index.php
+  ganti $base_url menjadi
+    
+    $base_url = 'http://localhost';
 
 
 ## Cara Pemakaian
