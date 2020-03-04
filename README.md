@@ -66,18 +66,10 @@ ssh student@localhost -p 2200
 
 
 #ganti base_url ke localhost
-
-## Konfigurasi (opsional)
-
-Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- dll
-
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
+        cd /var/www/html
+        sudo nano index.php
+     ganti $base_url menjadi
+        $base_url = 'http://localhost';
 
 
 ## Cara Pemakaian
