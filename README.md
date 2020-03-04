@@ -27,7 +27,7 @@ Buka terminal di komputer host,lalu akses VM dengan username dan password studen
     sudo apt update
 
     sudo apt install apache2 php mysql-server
-
+ 
     sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
 
     sudo service apache2 restart
@@ -115,12 +115,12 @@ Cek instalasi Apache dengan membuka laman http://localhost:80
 ## Pembahasan
 
 - Pendapat kami tentang aplikasi "Minimalist-web-Notepad"
-    - kelebihan
+## kelebihan
     1. Fleksibel
     2. Mudah digunakan
     3. Ringan dijalankan
     4. Dapat menyimpan secara otomatis
-    - kekurangan
+## kekurangan
     1. Hanya bisa memasukkan string atau data,tidak bisa menampilkan gambar
     2. Fitur Minim 
 - Bandingkan dengan aplikasi web lain yang sejenis
